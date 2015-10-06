@@ -1,0 +1,22 @@
+{
+  "name": "dwarf",
+  "main": "./lib/dwarf",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "dwarf:toggle"
+  },
+  "activationEvents": ["dwarf:qqq"],
+  "repository": "https://github.com/atom/dwarf",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "koa": "~1",
+    "loophole": "~1.1.0",
+    "crypto": "~0.0.3"
+  }
+}
